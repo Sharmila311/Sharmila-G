@@ -34,6 +34,13 @@
             z-index: 1000;
         }
 
+        header img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
         header nav {
             display: flex;
             justify-content: center;
@@ -100,7 +107,7 @@
         }
 
         .project-card {
-            background-color:white;
+            background-color: white;
             padding: 20px;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -143,7 +150,7 @@
         }
 
         #contact a {
-            color: #ecf8ec;
+            color: #4CAF50;
             text-decoration: none;
             font-weight: bold;
         }
@@ -153,28 +160,28 @@
         }
 
         /* CV Download Button */
-		#cv-download {
-			margin-top: 20px;
-		}
+        #cv-download {
+            margin-top: 20px;
+        }
 
-		#cv-download a {
-			background-color: #051305;
-			color: #fff;
-			padding: 12px 24px;
-			border-radius: 8px;
-			text-decoration: none;
-			font-weight: bold;
-			font-size: 18px; /* Increased font size */
-			display: inline-block;
-			transition: background-color 0.3s, color 0.3s;
-			border: 2px solid #fff; /* Added a white border for better visibility */
-		}
+        #cv-download a {
+            background-color: #051305;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s;
+            border: 2px solid #fff;
+        }
 
-		#cv-download a:hover {
-			background-color: #45a049;
-			color: #110f0f;
-			border-color: #0a0a0a;
-		}
+        #cv-download a:hover {
+            background-color: #45a049;
+            color: #110f0f;
+            border-color: #0a0a0a;
+        }
 
         /* Footer */
         footer {
@@ -202,7 +209,7 @@
 
 <!-- Header -->
 <header>
-    <img  src="https://github.com/shalinij22/Shalini-J/blob/main/WhatsApp%20Image%202025-03-20%20at%2010.42.20%20PM.jpeg?raw=true">
+    <img src="https://raw.githubusercontent.com/Sharmila311/Sharmila-G/abfd4f4dd2387a04a6e652e16ed9ff6672c99720/IMG.jpg" alt="Profile Image">
     <h1>Sharmila G</h1>
     <h2>Student at Patrician College Of Arts And Science</h2>
     <nav>
@@ -227,7 +234,7 @@
 <!-- Skills Section -->
 <section id="skills">
     <div class="container">
-        <h3 style="color: #0e110e;">Skills</h3>
+        <h3>Skills</h3>
         <div class="skills-list">
             <span>HTML5</span>
             <span>CSS3</span>
@@ -244,34 +251,37 @@
 <!-- Projects Section -->
 <section id="projects">
     <div class="container">
-        <h3 style="color: #151a15;">Projects</h3>
+        <h3>Projects</h3>
         <div class="projects">
             <div class="project-card">
-                <h2>Project 1</h2>
+                <h3>Project 1</h3>
                 <p>A to-do list app built with React and Firebase for real-time updates.</p>
                 <a href="#" target="_blank">View Project</a>
             </div>
             <div class="project-card">
-                <h2>Project 2</h2>
+                <h3>Project 2</h3>
                 <p>A weather app that uses an API to fetch live weather data.</p>
                 <a href="#" target="_blank">View Project</a>
             </div>
         </div>
     </div>
 </section>
-<section  id="contact">
+
+<!-- Contact Section -->
+<section id="contact">
     <div class="container">
-        <h3 style="color: #051305;">Contact Me</h3>
-        <p style='color: #051305;'>Email: <a href="mailto:sharmi7874@gmail.com">sharmi7874@gmail.com</a></p>
-        <p style='color: #051305;'>GitHub: <a href="https://github.com/sharmila311" target="_blank">https://github.com/Sharmila311</a></p>
-        <p style='color: #051305;'>LinkedIn: <a href="https://www.linkedin.com/in/sharmila123/" target="_blank">https://www.linkedin.com/in/sharmila123/</a></p>
-        
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:sharmi7874@gmail.com">sharmi7874@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Sharmila311" target="_blank">Sharmila311</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sharmila123/" target="_blank">Sharmila G</a></p>
+
         <!-- CV Download -->
-        <div class="cv-download" id="cv-download">
+        <div id="cv-download">
             <a href="https://drive.google.com/file/d/1rqMsTF_Dq3MW77eoJuSZxFNQebjUivtN/view?usp=drive_link" download>Download CV</a>
         </div>
     </div>
 </section>
+
 <footer>
     <p>&copy; 2025 Sharmila G. All rights reserved.</p>
 </footer>
