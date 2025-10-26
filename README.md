@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Sharmila!
 
-🎓 **Computer Science Student** at **BSA**  
+🎓 **Computer Science Student** at **BCA**  
 💻 Passionate about coding, problem-solving, and learning new technologies.  
 🌱 Currently exploring **Web Development**, **AI/ML**, and **Open Source**.  
 
